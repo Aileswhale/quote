@@ -44,3 +44,43 @@ body{
     padding: 1rem;
     border-radius: 7px;
 }
+
+@media (max-width: 426px) {
+    body{
+        height: 100%;
+
+    }
+        #quoteDiv {
+            background: rgba(255, 255, 255, 0.402);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.6rem;
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+                .quotebtn {
+                    border-radius: 7px;
+                    padding: 0.6rem;
+                    background-color: rgba(128, 128, 128, 0.244);
+                    cursor: pointer;
+                    color: white;
+                    font-size: large;
+                    border: none;
+                    font-size: 0.5rem;
+                    font-weight: bold;
+                }
+                                .quote {
+                                    padding: 2rem;
+                                    background-color: rgba(255, 228, 196, 0.5);
+                                    border-left: 0.5rem solid rgba(128, 128, 128, 0.5);
+                                    border-radius: 7px;
+                                }
+                
+                                .author {
+                                    background-color: rgba(255, 228, 196, 0.5);
+                                    padding: 0.5rem;
+                                    border-radius: 7px;
+                                }
+    
+}
